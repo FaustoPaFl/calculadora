@@ -1,11 +1,13 @@
 import './App.css';
-import freeCodeCampLogo from './imagenes/FreeCodeCamp_logo.png'
+import Boton from './componentes/Boton';
 
 function App() {
   return (
     <div className='App'>
       <div className='contenedor-calculadora'>
-        <div className='fila'></div>
+        <div className='fila'>
+          <Boton>1</Boton>
+        </div>
         <div className='fila'></div>
         <div className='fila'></div>
         <div className='fila'></div>
