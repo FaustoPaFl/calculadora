@@ -7,7 +7,7 @@ function App() {
       <div className='contenedor-calculadora'>
         <div className='fila'>
           <Boton>1</Boton>
-          <Boton>2</Boton>
+          <Boton>as</Boton>
           <Boton>3</Boton>
           <Boton>+</Boton>
         </div>
