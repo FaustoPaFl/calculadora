@@ -11,7 +11,11 @@ function App() {
   const [input,setInput] = useState('');
 
   const agregarInput = val =>{
+    if (isNaN(val) && isNaN(input)){
+      alert('Por favor selecciona un número.')
+    }else{
     setInput(input + val);
+    }
   };
 
   const calcularResultado = () =>{
@@ -20,7 +24,7 @@ function App() {
     }else{
       alert('Por favor ingrese un número.')
     }
-  }
+  };
 
   return (
     <div className='App'>
